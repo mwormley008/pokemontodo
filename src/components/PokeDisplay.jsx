@@ -12,9 +12,9 @@ export default function PokeDisplay({ pokeInfo }) {
                         <div className="col-md-8">
                         <div className="card-body">
                             <h5 className="card-title">{pokeInfo.name}</h5>
-                            <ul className='list-group list-group-flush'>
-                                <li className="list-group-item">Height: <strong>{pokeInfo.height}</strong></li>
-                                <li className="list-group-item">Weight: <strong>{pokeInfo.weight}</strong></li>
+                            <ul>
+                                <li>Height: {pokeInfo.height}</li>
+                                <li>Weight:{pokeInfo.weight}</li>
                             </ul>
                         </div>
                         </div>

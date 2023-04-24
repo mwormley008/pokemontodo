@@ -6,7 +6,6 @@ export default function ToDo() {
     const [toDos, setToDos] = useState([]);
 
     function addToList(task){
-        console.log(task);
         setToDos([...toDos, task]);
     };
 
